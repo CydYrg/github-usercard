@@ -117,8 +117,8 @@ function cardMaker(cardObj) {
   followers.textContent = cardObj.followers;
   following.textContent = cardObj.following;
   bio.textContent = cardObj.bio;
-
-
+ 
+  return card
 };
 /*
   List of LS Instructors Github username's:
